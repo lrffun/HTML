@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易注册</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .header{
+            width: 960px;
+            height: 80px;
+            margin:0 auto;
+            padding-top:28px;
+            box-sizing: border-box;
+        }
+        .header .logo{
+            width: 644px;
+            height: 27px;
+            background: url("jingling.png") no-repeat 0 0;
+            float: left;;
+        }
+        .header .logo a{
+            width: 130px;
+            height: 27px;
+            display: inline-block;
+        }
+        .header .links{
+            float: right;
+            width: 200px;
+            height: 27px;
+            text-align: right;
+        }
+        .header .links a{
+            text-decoration: none;
+            font-size:12px;
+            color:#ccc;
+            line-height: 27px;
+        }
+        .content{
+            width: 960px;
+            height: 600px;
+
+            margin:0 auto;
+        }
+        .content .top{
+            width: 960px;
+            height: 37px;
+            background: url("bgx.png") repeat-x;
+        }
+        .content .top .line-left{
+            width: 960px;
+            height: 37px;
+            background: url("line-left.png") no-repeat left 0;
+           
+        }
+        .content .top .line-right{
+            width: 960px;
+            height: 37px;
+            background: url("line-right.png") no-repeat right 0;
+            
+        }
+        .content .line-right h1{
+            color:#fff;
+            font-size: 14px;
+            line-height:38px;
+            text-indent: 2em;
+            font-family:"宋体";
+        }
+        .content .bottom{
+            width: 960px;
+            height: 562px;
+
+        }
+        .content .bottom .article{
+            width: 642px;
+            height: 562px;
+            float: left;
+            padding-top: 50px;
+            padding-left: 80px;
+            box-sizing: border-box;
+            background-color: #fdfdfe;
+            border: 1px solid #ccc;
+            border-top:none;
+        }
+        .content .bottom .article .articletop{
+            width: 560px;
+            height: 60px;
+
+            padding-left:30px;
+            box-sizing: border-box;
+        }
+
+        .content .bottom .article .articlebottom{
+            width: 560px;
+            height: 450px;
+            background-color: #fff;
+
+        }
+
+        .content .bottom .article .articlebottom .wenzi{
+            width: 91px;
+            height: 27px;
+            text-align: right;
+            float: left;
+            clear: left;
+            padding-right:20px;
+            box-sizing: border-box;
+        }
+        .content .bottom .article .articlebottom .wenzi .star{
+            color:red;
+            font-size:14px;
+            line-height:27px;
+            font-family: verdana;
+        }
+        .content .bottom .article .articlebottom .wenzi .emial{
+            color: #666666;
+            line-height:27px;
+            font-size:14px;
+            font-family: verdana;
+
+        }
+        .content .bottom .article .articlebottom .shurukuang{
+            width: 334px;
+            height: 27px;
+
+            float: left;
+        }
+        .content .bottom .article .articlebottom .shurukuang3 input{
+
+            width: 215px;
+            height: 27px;
+            float: left;
+        }
+
+        .content .bottom .article .articlebottom .shurukuang3 img{
+            width: 100px;
+            height: 27px;
+            float: left;
+            margin-left:20px;
+        }
+        .content .bottom .article .articlebottom .shurukuang input{
+            width: 212px;
+            height: 27px;
+        }
+
+        .content .bottom .article .articlebottom .shurukuang select{
+            width: 98px;
+            height: 27px;
+            font-size:18px;
+            color:#666666;
+        }
+
+        .content .bottom .article .articlebottom .xiawenzi{
+            width: 334px;
+            height: 42px;
+
+            padding-left:91px;
+            float: left;
+            font-size:12px;
+            color:#666666;
+        }
+        .content .bottom .article .articlebottom .shurukuang2 input{
+            width: 334px;
+            height: 27px;
+
+            float: left;
+        }
+        .content .bottom .article .articlebottom p{
+            margin-left:90px;
+            float: left;
+            font-size:12px;
+            color:#666666;
+        }
+        .content .bottom .article .articlebottom p a{
+            text-decoration: none;
+        }
+        .content .bottom .article .articlebottom input[type=submit]{
+            width: 119px;
+            height: 37px;
+            background: url("jingling.png") no-repeat -144px -360px;
+            float: left;
+            clear: left;
+            border: none;
+            font-size:20px;
+            color:#ffffff;
+            margin-left: 90px;
+            margin-top:20px;
+        }
+        .content .bottom .youtupian{
+            width: 318px;
+            height: 562px;
+            background-color: #f4f4f4;
+            float: right;
+        }
+        .content .bottom .youtupian{
+            padding-top:105px;
+            padding-left: 45px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-top:none;
+        }
+        .footer{
+            width: 960px;
+            height: 48px;
+            text-align: center;
+            margin:0 auto;
+            font-size:12px;
+            color:#666666;
+        }
+        .footer a{
+            text-decoration: none;
+            color:#666;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="logo">
+        <a href="https://mail.163.com/" title="网易163免费邮"></a><a href="https://www.126.com/" title="网易126免费邮"></a><a href="https://www.yeah.net/" title="网易Yeah.net免费邮"></a>
+    </div>
+    <div class="links">
+        <a href="https://email.163.com/">了解更多</a>
+        |
+        <a href="http://help.mail.163.com/faq.do">反馈意见</a>
+    </div>
+</div>
+<div class="content">
+    <div class="top">
+        <div class="line-left">
+            <div class="line-right"><h1>欢迎注册网易邮箱！邮件地址可以登录使用其他网易旗下产品。</h1></div>
+        </div>
+
+    </div>
+    <div class="bottom">
+        <div class="article">
+            <div class="articletop">
+                <a href="#" title="此处不能点！"><img src="dh.png" alt=""></a>
+            </div>
+            <div class="articlebottom">
+                <div class="one">
+                     <div class="wenzi"><span class="star">*</span> <span class="emial">邮件地址</span></div>
+                     <div class="shurukuang">
+                    <input type="text"><strong>@</strong><select>
+                    <option value="163.com">163.com</option>
+                    <option value="126.com">126.com</option>
+                    <option value="yeah.net">yeah.net</option>
+                </select>
+                </div>
+                    <div class="xiawenzi">6~18个字符，可使用字母、数字、下划线，需以字母开头</div>
+                </div>
+                <div class="two">
+                    <div class="wenzi"><span class="star">*</span> <span class="emial">密码</span></div>
+                    <div class="shurukuang2">
+                        <input type="password">
+                    </div>
+                    <div class="xiawenzi">6~16个字符，区分大小写</div>
+                </div>
+                <div class="three">
+                    <div class="wenzi"><span class="star">*</span> <span class="emial">确认密码</span></div>
+                    <div class="shurukuang2">
+                        <input type="password">
+                    </div>
+                    <div class="xiawenzi">请再次填写密码</div>
+                </div>
+                <div class="four">
+                    <div class="wenzi"><span class="star">*</span> <span class="emial">手机号码</span></div>
+                    <div class="shurukuang2">
+                        <input type="number">
+                    </div>
+                    <div class="xiawenzi">忘记密码时，可以通过该手机号码快速找回密码</div>
+                </div>
+                <div class="five">
+                    <div class="wenzi"><span class="star">*</span> <span class="emial">验证码</span></div>
+                    <div class="shurukuang3">
+                        <input type="text">
+                        <img src="yanzheng.jpg" alt="点击可放大">
+                    </div>
+                    <div class="xiawenzi">6~18个字符，可使用字母、数字、下划线，需以字母开头</div>
+                </div>
+                <p>
+                    <input type="checkbox">
+                    同意"<a href="http://reg.163.com/agreement.shtml">服务条款</a>"和"<a href="http://reg.163.com/agreement_game.shtml">隐私权相关政策</a>"
+                </p>
+                <input type="submit" value="立即注册">
+            </div>
+        </div>
+        <div class="youtupian">
+            <img src="reg_master.gif">
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="ditop">
+
+        <a href=http://corp.163.com/index_gb.html"">关于网易</a>
+        <a href="http://mail.163.com/html/mail_intro">关于网易免费邮</a>
+        <a href="http://mail.blog.163.com/">邮箱官方博客</a>
+        <a href="http://help.163.com/">客户服务</a>
+        <a href="http://corp.163.com/gb/legal/legal.html">隐私政策</a>
+        |
+        网易公司版权所有 © 1997-2019
+    </div>
+    <div class="dibottom">数据来源：艾媒咨询《2015-2018中国个人邮箱行业研究报告》 </div>
+</div>
+</body>
+</html>
