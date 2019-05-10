@@ -20,6 +20,6 @@
  >>>>平衡二叉树
  >>>>>满二叉树
  ![](https://www.baidu.com/img/bd_logo1.png "百度logo")
- [![baidu]](www.baidu.com)
- [baidu]:https://www.baidu.com/img/bd_logo1.png "百度logo"
+[![baidu]](http://baidu.com)  
+[baidu]:http://www.baidu.com/img/bd_logo1.png "百度Logo" 
  
